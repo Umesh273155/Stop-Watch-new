@@ -1,0 +1,82 @@
+.container{
+    border:2px solid black;
+     display:flex;
+    justify-content:center;
+     align-items:center;  
+     /* height:98%;
+     width:98%;
+     */
+     flex-direction:column;
+       width:18rem;
+       height:15rem;
+    }
+    .innerbox{
+        
+       
+    }
+    body{
+        display:flex;
+        justify-content:center;
+       align-items: center;
+        text-align:center;
+
+    }
+    #buttons{
+       display:flex;
+       align-items:center;
+       justify-content:center ;
+       margin-top:2rem;
+       margin-left:3rem;
+       margin-right:3rem;
+     flex-wrap:wrap;
+    }
+     .btn{
+        background-color:#fff;
+        outline:none;
+         border:none; 
+        box-shadow:0px -5px 10px grey;
+        width:3rem;
+        height:2rem;
+        margin:auto;
+        border-radius:5px;
+    } 
+    #stopwatch{
+       font-size:3rem;
+       box-shadow:0px -5px 5px grey;
+       /* color:white; */
+       border:1px solid gainsboro;
+       border-radius:5px;
+       margin-bottom:20px;
+       width:11rem;
+       margin:auto;
+       display:flex;
+       flex-shrink:1 1 1 ;
+    }
+    #btn1{
+        background-color:green;
+        color:white;
+        margin-right:.2rem;
+    }
+    #btn2{
+        background-color:fuchsia;
+        color:white;
+        margin-right:.2rem;
+    }
+    #btn3{
+        background-color:blue;
+        color:white;
+        
+    }
+    /* .innerbox{
+        height:40rem;
+        width:40rem;
+    } */
+    #btn1:active{
+        background-color:yellowgreen;
+    }
+    #btn2:active{
+        background-color:red;
+    }
+    #btn3:active{
+        background-color:aqua;
+    }
